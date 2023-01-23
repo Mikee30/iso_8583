@@ -5,7 +5,7 @@
   "main": "./lib/ISO8583.js",
   "types": "./lib/ISO8583.d.ts",
   "scripts": {
-    "postinstall": "tsc --outDir ./lib",
+    "postinstall": "npx tsc --outDir ./lib",
     "docs": "jsdoc -c js_docs.conf.json README.md",
     "test": "jest",
     "test.watch": "npx ava --verbose --watch",
